@@ -1,0 +1,5 @@
+float64 resolution
+float64 max_laser_range
+bool line_between_laser_points
+---
+sensor_msgs/Image image

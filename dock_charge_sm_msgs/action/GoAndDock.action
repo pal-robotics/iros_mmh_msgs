@@ -1,0 +1,4 @@
+duration retry_delay # Max time that the dock_charge should spend retrying
+bool use_current_pose #if true, use current pose for dock detection. if false, uses building_description and composite_navigation to reach the POI for dock search
+---
+---

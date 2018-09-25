@@ -1,0 +1,8 @@
+string pattern_file
+float32 threshold
+---
+---
+bool found # Whether Dock station is found
+float32 accuracy #the accuracy of the match, either it is found or not
+float32 distance #the distance to the pattern
+geometry_msgs/TransformStamped transform # Transform to the dock station
