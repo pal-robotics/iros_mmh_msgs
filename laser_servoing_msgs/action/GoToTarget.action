@@ -1,0 +1,10 @@
+geometry_msgs/PoseStamped pose
+bool refresh_frame # Whether to recompute the pose of the target with regards
+# to the robot continuously, if it is referenced to a frame attached to the robot
+# set it to fales, otherwise the goal will never be reached
+# set it to true.
+float64 alignment_distance # Distance in front of the pose to perform alignment
+# Set it to 0.0 for no alignment
+---
+bool arrived # Whether the robot reached the frame
+---

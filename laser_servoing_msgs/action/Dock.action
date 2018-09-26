@@ -1,0 +1,4 @@
+---
+bool arrived # Whether the robot reached the dock
+---
+bool aligned # dock state

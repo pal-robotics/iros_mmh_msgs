@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>laser_servoing_msgs</name>
+  <version>0.0.4</version>
+  <description>The laser_servoing_msgs package</description>
+  <maintainer email="procopio.stein@pal-robotics.com">Procopio Stein</maintainer>
+  <author email="procopio.stein@pal-robotics.com">Procopio Stein</author>
+  <license>Proprietary</license>
+
+  <license>Proprietary</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>actionlib</depend>
+  <depend>actionlib_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+</package>
